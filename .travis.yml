@@ -6,7 +6,7 @@ script: ./travis.sh
 
 env:
   - TARGET=BUILD
-  - TARGET=WEB_TESTS
+  #- TARGET=WEB_TESTS
 
 matrix:
   fast_finish: true

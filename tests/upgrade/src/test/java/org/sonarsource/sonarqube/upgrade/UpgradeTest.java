@@ -35,6 +35,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import org.apache.commons.io.IOUtils;
 import org.junit.After;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.sonar.wsclient.services.ResourceQuery;
 import org.sonarqube.ws.WsMeasures.Measure;
@@ -50,6 +51,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static java.lang.Integer.parseInt;
 import static org.assertj.core.api.Assertions.assertThat;
 
+@Ignore
 public class UpgradeTest {
 
   private static final String PROJECT_KEY = "org.apache.struts:struts-parent";
